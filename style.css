@@ -185,13 +185,13 @@ li {
 .hero-btn-1 {
   color: var(--primary-white);
   background-color: var(--section-back);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding: 0.5rem 0.8rem;
   border-radius: 0.7rem;
 }
 .hero-btn-2 {
   color: var(--primary-white);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding: 0.5rem 0.8rem;
   border-radius: 0.7rem;
   border: 1px solid var(--primary-white);
@@ -774,6 +774,12 @@ margin: 2rem;
   padding: 1rem;
 }
 
+.splide__arrow {
+
+}
+.splide__pagination {
+  visibility: hidden;
+}
 
 .client-offer-card {
   background: var(--primary-white);

@@ -66,6 +66,27 @@
     text-align: center;
   }
 }
+
+@media (max-width:400px) {
+  .h1 {
+    font-size: 1.8rem;
+  }
+  .h2 {
+    font-size: 1.4rem;
+  }
+  .h3 {
+    font-size: 0.8rem;
+  }
+  .p-100 {
+    font-size: 0.7rem;
+  }
+  .md-text-c {
+    text-align: center;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -276,6 +297,36 @@
 }
 
 /* =============main btn style===== */
+.btn {
+  position: relative;
+  color: var(--section-back);
+  background: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+}
+.btn:hover {
+  color: var(--primary-color);
+}
+.btn::after {
+  content: '\f054';
+  font-family: "Font Awesome 5 Free";
+  background: var(--primary-white);
+  color: var(--primary-color);
+  padding: 0.4rem 0.6rem;
+  border-radius: 50%;
+  font-weight: 900; 
+  margin-left: 0.5rem;
+  transition: margin-left 0.3s ease; /* Add a smooth transition effect */
+}
+.btn:hover::after {
+  margin-left: 1.5rem; /* Move the icon 2px to the right on hover */
+  background: var(--primary-color);
+  color: var(--primary-white);
+}
+
+
+
 .main-btn {
   position: relative;
   color: var(--primary-white);
